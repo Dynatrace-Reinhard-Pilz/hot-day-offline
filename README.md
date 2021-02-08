@@ -32,8 +32,10 @@ Maven is being used in order to build the Java application the first part of the
 * You can also follow pretty much all the steps explained in this tutorial to set it up on a local Ubuntu machine
 * https://idroot.us/install-apache-kafka-ubuntu-20-04/
   * Download link for the Kafka Binaries: https://downloads.apache.org/kafka/2.6.1/kafka_2.13-2.6.1.tgz
-* Just make sure that in the end you’re creating a topic “SomeTopic”, because that’s what the Kafka Sample sends data to (line 15 in kafka.go).
-* bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic SomeTopic
+* Just make sure that in the end you’re creating a topic “SomeTopic”, because that’s what the Kafka Sample sends data to (line 15 in `kafka.go`).
+  ```bash
+  bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic SomeTopic`
+  ```
 
 ### Hazelcast
 * Like with Kafka, there are multiple ways to get a Hazelcast instance to run
