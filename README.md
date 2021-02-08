@@ -1,7 +1,14 @@
 # Perform 2021 - OpenTelemetry - Requirements to set up an environment for the Hands On Parts
 
 ## Hands On Instructions
-* The Instructions for the Hands ons are available [here](https://github.com/Dynatrace/perform-2021-hotday/tree/main/Opentelemetry_With_Dynatrace). Just check out the various `index.md` files. The instructions in there are 100% the same than the ones you have seen within Dynatrace University.
+The Hands on Training will cover two specific topics.
+Dynatrace's capabilities regarding OpenTracing will be covered by a sample spring boot application written in Java.
+Dynatrace's capabilities regarding OpenTelemetry will be covered by a sample application written in Golang.
+### Hands On - OpenTracing / Java
+Navigate to the documentation for [OpenTracing & Java](./content/02_OpenTracing/)
+### Hands On - OpenTelemetry / Golang
+Navigate to the documentation for [OpenTelemetry & Golang](./content/03_OpenTelemetry/)
+### Source Code
 * The Source Code for the Hands ons is available (like it was during the sessions) [here](https://github.com/Dynatrace-APAC/vhot2021]).
 
 ## Development machine
