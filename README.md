@@ -9,7 +9,7 @@ Navigate to the documentation for [OpenTracing & Java](./content/02_OpenTracing/
 ### Hands On - OpenTelemetry / Golang
 Navigate to the documentation for [OpenTelemetry & Golang](./content/03_OpenTelemetry/)
 ### Source Code
-* The Source Code for the Hands ons is available (like it was during the sessions) [here](https://github.com/Dynatrace-APAC/vhot2021]).
+* The Source Code for the Hands ons is available (like it was during the sessions) [here](https://github.com/Dynatrace-APAC/vhot2021).
 
 ## Development machine
 
