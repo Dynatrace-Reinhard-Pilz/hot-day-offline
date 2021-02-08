@@ -1,4 +1,4 @@
-# hot-day-offline
+# Perform 2021 - OpenTelemetry - Requirements to set up an environment for the Hands On Parts
 
 ## Development machine
 
