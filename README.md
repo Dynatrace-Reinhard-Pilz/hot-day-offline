@@ -28,7 +28,9 @@ Maven is being used in order to build the Java application the first part of the
 * When opening the first `.go` files Visual Studio Code will show a pop up `Do you want to install the recommended extensions for Go?`. It is a good idea to choose `Install` here.
 * When opening the first `.go` files Visual Studio Code will show a pop up `The "go-pls" command is not available. Run "go get -v golang.org/x/tools/gopls" to install".`. It is a good idea to choose `Install All` here. Visual Studio Code will then run that command for you.
 ### Additional utilities
-* During the Hands On Training you're required to execute `curl` in order to send requests to the application(s). You can also choose to use a Web Browser instead.
+* During the Hands On Training you're required to execute `curl` in order to send requests to the application(s)
+* `curl` is getting installed as a side effect when installing `Git for Windows`
+* You can also choose to use a Web Browser instead and not to rely on `curl`
 
 ## External Services
 
