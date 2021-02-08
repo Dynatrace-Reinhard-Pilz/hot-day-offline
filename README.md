@@ -14,6 +14,7 @@
 * You can use default settings during installation
 ### JDK 11
 * The sample for Hazelcast is configured to build against Java 11. In general OneAgent doesn’t have a requirement regarding the Java version.
+* https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
 * Specifically regarding OpenTelemetry / OpenTracing the minimum version of Java required depends on the libraries you would like to include
   * OpenTracing Hazelcast Instrumentation (https://github.com/opentracing-contrib/java-hazelcast) e.g. requires at the minimum Java 8
 * You can use default settings during installation
