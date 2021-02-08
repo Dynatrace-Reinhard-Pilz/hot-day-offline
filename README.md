@@ -27,18 +27,20 @@ Maven is being used in order to build the Java application the first part of the
 * When opening the first `.go` files Visual Studio Code will show a pop up `The "go-pls" command is not available. Run "go get -v golang.org/x/tools/gopls" to install".`. It is a good idea to choose `Install All` here. Visual Studio Code will then run that command for you.
 ### Additional utilities
 * During the Hands On Training you're required to execute `curl` in order to send requests to the application(s). You can also choose to use a Web Browser instead.
+
 ## External Services
+
 ### Kafka
 * For Lessen 03 an external Kafka Broker is required
 * There are a lot of ways to launch a Kafka Broker (AWS Image, Docker Image, …)
 * You can also follow pretty much all the steps explained in this tutorial to set it up on a local Ubuntu machine
 * https://idroot.us/install-apache-kafka-ubuntu-20-04/
-  * Download link for the Kafka Binaries: https://downloads.apache.org/kafka/2.6.1/kafka_2.13-2.6.1.tgz
+* It's also possible to install Kafka on the same Windows machine where Visual Studio is running. In this case the IP Address for the Kafka Broker is simply `127.0.0.1`.
+* Download link for the Kafka Binaries: https://downloads.apache.org/kafka/2.6.1/kafka_2.13-2.6.1.tgz
 * Just make sure that in the end you’re creating a topic “SomeTopic”, because that’s what the Kafka Sample sends data to (line 15 in `kafka.go`).
   ```bash
   bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic SomeTopic`
   ```
-
 ### Hazelcast
 * Like with Kafka, there are multiple ways to get a Hazelcast instance to run
 * https://hazelcast.org/imdg/get-started/
@@ -57,6 +59,8 @@ Maven is being used in order to build the Java application the first part of the
   ```
 * You can also follow these instructions to install Hazelcast manually on Linux
 * https://riptutorial.com/hazelcast/example/26416/installation-or-setup
+
+* Finally it's also possible to install Hazelcast on the same Windows machine where Visual Studio is running. In this case the IP Address for the Hazelcast Cluster is simply `127.0.0.1`.
 
 ### Dynatrace Cluster version
 * The required OneAgent version for the samples is 1.207.xxx
