@@ -18,6 +18,9 @@
 * Specifically regarding OpenTelemetry / OpenTracing the minimum version of Java required depends on the libraries you would like to include
   * OpenTracing Hazelcast Instrumentation (https://github.com/opentracing-contrib/java-hazelcast) e.g. requires at the minimum Java 8
 * You can use default settings during installation
+### Apache Maven
+Maven is being used in order to build the Java application the first part of the hands on focuses on
+* https://mirror.klaus-uwe.me/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
 
 ## External Services
 ### Kafka
