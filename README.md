@@ -3,6 +3,8 @@
 ## Development machine
 
 ### Git for Windows
+* Git is being used to download the source code of the examples to development machine.
+* You may, of course also choose to download manually and skip this step
 * https://git-scm.com/download/win
 ### Golang 1.15.2
 *	https://golang.org/dl/go1.15.2.windows-amd64.msi
