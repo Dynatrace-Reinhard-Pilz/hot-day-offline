@@ -1,8 +1,8 @@
 # Perform 2021 - OpenTelemetry - Requirements to set up an environment for the Hands On Parts
 
 ## Hands On Instructions
-The Instructions for the Hands ons are available [here](https://github.com/Dynatrace/perform-2021-hotday/tree/main/Opentelemetry_With_Dynatrace). Just check out the various `index.md` files. The instructions in there are 100% the same than the ones you have seen within Dynatrace University.
-The Source Code for the Hands ons is available (like it was during the sessions) [here](https://github.com/Dynatrace-APAC/vhot2021]).
+* The Instructions for the Hands ons are available [here](https://github.com/Dynatrace/perform-2021-hotday/tree/main/Opentelemetry_With_Dynatrace). Just check out the various `index.md` files. The instructions in there are 100% the same than the ones you have seen within Dynatrace University.
+* The Source Code for the Hands ons is available (like it was during the sessions) [here](https://github.com/Dynatrace-APAC/vhot2021]).
 
 ## Development machine
 
