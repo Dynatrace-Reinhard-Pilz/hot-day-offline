@@ -31,10 +31,23 @@
 ### Hazelcast
 * Like with Kafka, there are multiple ways to get a Hazelcast instance to run
 * https://hazelcast.org/imdg/get-started/
+* The easiest way is to install the Hazelcast cluster on a Kubernetes cluster
+* You can either use Google Kubenetes Engine, AKS or EKS
+* Please install only `ver 3.12.10-3` of the Hazelcast cluster
+* Follow the commands below to install HazelCast using Helm Charts
+  ```bash
+  $ helm repo add hazelcast https://hazelcast-charts.s3.amazonaws.com/
+  $ helm repo update
+  $ helm install hazelcast --set image.tag="3.12.10-3",service.type=LoadBalancer,service.clusterIP="" hazelcast/hazelcast
+  ```
+* After a successful installation, extract the public facing IP address using this command
+  ```bash
+  $ kubectl get svc --namespace default hazelcast -o jsonpath='{.status.loadBalancer.ingress[0].ip}
+  ```
 * You can also follow these instructions to install Hazelcast manually on Linux
 * https://riptutorial.com/hazelcast/example/26416/installation-or-setup
 
-Dynatrace Cluster version
+### Dynatrace Cluster version
 •	The required OneAgent version for the samples is 1.207.xxx
 o	If your Dynatrace Cluster doesn’t yet provide a 207 OneAgent installer you may want to use a free trial tenant (which are coincidentally at 207 at the moment)
 o	Free Dynatrace Trial | Dynatrace
